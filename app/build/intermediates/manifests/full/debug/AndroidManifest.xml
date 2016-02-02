@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrsunnybunny.activity2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mrsunnybunny.activity2.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mrsunnybunny.activity2.married"
+            android:label="@string/title_activity_married"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.mrsunnybunny.activity2.single"
+            android:label="@string/title_activity_single"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.mrsunnybunny.activity2.education"
+            android:label="@string/title_activity_education"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.mrsunnybunny.activity2.languages"
+            android:label="@string/title_activity_languages"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.mrsunnybunny.activity2.Finish"
+            android:label="@string/title_activity_finish"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
